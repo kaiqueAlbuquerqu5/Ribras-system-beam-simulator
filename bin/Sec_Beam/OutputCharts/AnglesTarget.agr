@@ -1,0 +1,152 @@
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@default linewidth 1.0
+@default linestyle 1
+@map font 0 to "Times-Roman", "Times-Roman"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 4 to (0, 0, 255), "blue"
+@map color 7 to (220, 220, 220), "grey"
+@map color 11 to (255, 165, 0), "orange"
+@g0 on
+@g0 hidden false
+@g0 type XY
+@with g0
+@    world 2, 0, 5.3, 11
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.15000, 0.150000, 1.15000, 0.850000
+@page background fill on
+@with string
+@    string on
+@    string loctype view
+@    string 0.29, 0.936274509804
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.50000
+@    string def "Counting the trajectory angles on the target"
+@with string
+@    string on
+@    string loctype view
+@    string 1.08455882353, 0.080882352941
+@    string color 2
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.700000
+@    string def "KAlbuquerque"
+@with string
+@    string on
+@    string loctype view
+@    string 1.084, 0.054852941176
+@    string color 2
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.750000
+@    string def "OCBSantos"
+@with string
+@    string on
+@    string loctype world
+@    string g0
+@    string 1.085, 0.057598039216
+@    string color 4
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.700000
+@    string def "1 cm"
+@default sformat "%.8g"
+@background color 0
+@with g0
+@g0 hidden false
+@g0 type XY
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxis  on
+@    xaxis  label "Trajectory angle on target"
+@    xaxis  label place auto
+@    xaxis  tick on
+@    xaxis  tick major 0.5
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  label "Count"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel place normal
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.5
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    s0 hidden false
+@    s0 type xy
+@    s0 line type 2
+@    s0 line linestyle 1
+@    s0 line linewidth 2.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 fill type 2
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 6
+@target G0.S0
+@type xy
+2.06522   5
+2.19565   3
+2.32609   5
+2.45652   4
+2.58696   4
+2.71739   5
+2.84783   5
+2.97826   9
+3.10870   7
+3.23913   2
+3.36957   5
+3.50000   3
+3.63043   6
+3.76087   1
+3.89130   3
+4.02174   4
+4.15217   1
+4.28261   0
+4.41304   0
+4.54348   0
+4.67391   0
+4.80435   0
+4.93478   0
+&

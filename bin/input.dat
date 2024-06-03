@@ -1,0 +1,65 @@
+--!--> Use this tag '--!-->' to add a comment line.
+--!--> Main parameter of secbeam
+Run Sec_beam (yes/no): yes
+Number of particles: 100
+Primary beam: 12C
+Secondary beam: 14O
+Primary target:3He
+Secondary beam mass:14
+Secondary beam charge:7
+Elev (MeV):0
+Primary beam Energy (MeV):48
+Primary target thick (cm):0.5
+CrossSection (yes/no): no
+Fix the current (yes Current(A)/no):yes 21.1
+Consider the straggling (yes/no):yes
+END
+--!--> The tag "END" below must not be deleted.
+
+
+
+--!--> Contaminants parameters
+--!--> Write the contaminant tag, its mass, and its charge.
+--!--> Example: 4He	4	2 (separar por tab)
+4He	4	2
+3H	3	1
+2H	2	1
+1H	1	1
+14O	14	8
+END
+--!--> The tag "END" below must not be deleted.
+
+
+--!--> Biparametric parameters
+Run biparametric (yes/no): yes
+Detector: 28Si
+Detector thick (cm;mg/cm2): -0.0025
+Detector distance (m): 0.07
+Detector angle lab(deg): 15
+Detector shape (circular,rectangular):circular
+Detector measurements {Det.radius(cm)}*OR*{Det.WidthX(cm) Det.WidthY(cm)}:0.55
+Secondary target:197Au
+Secondary target thick (cm;mg/cm2):-0.0002009
+Ejectile beam(s):14O
+Recoil beam(s):197Au
+Qwindow(s):0
+Qgs('s):0
+END
+--!--> The tag "END" below must not be deleted.
+
+
+
+--!--> Geometric parameters
+Minimum angle(deg): 2
+Maximum angle(deg): 5
+sRadiusPriBeam(m):0.001
+sEnergyPriBeam(MeV):0
+FirstCollimatorR(m):0.02125	 		
+FaradSayCupR(m):0.013625
+LollipopR(m):0.005
+SecondCollimatorR(m):0.03
+posBlocker(m):2.455
+BlockerR(m):0.00
+
+
+

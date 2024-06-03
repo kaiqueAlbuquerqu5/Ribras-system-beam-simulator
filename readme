@@ -1,0 +1,70 @@
+First install Grace
+$	sudo apt-get install grace
+
+To compile the program Sec_Beam: 
+-> Open SecRIBRAS folder in the terminal and type
+$	make clean
+$	make
+
+
+To run the program:
+-> open bin folder an fill de in.dat file with all necessary information. If the biparametric option is "no", It is not
+need to fill your informations. In the "Input" folder inside "Sec_Beam" folder you need to put the cross section of the
+simulation, if you don't, the standard cross section is the 8Li.
+-> In the bin folder, open the terminal and type
+$	./secRIBRAS < in.dat
+
+
+All the output files are in the "Output" folders their respective simulations (Sec_Beam and Biparametric).
+
+For more informations:
+Osvaldo -> osvaldo.santos@usp.br
+Kaique  -> kaique.albuquerque@usp.br
+Direct and Exotic Nucleus Reactions - IFUSP
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- Logbook -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+
+--> 06/01/2023:
+Implementation of considering a diameter for the primary beam;
+Changing some aspects of the program's interface (mainly in the "bin" folder);
+Printing new aspects of the program, like as the reaction points.
+KAlbuquerque
+
+--> 11/01/2023:
+Some corrections in plotGraf function to obey the consideration of the primary beam deameter;
+Implementation of an algorithm to bar the primary beam in first collimator and in the faraday cup;
+Consideration of a primary beam energies normal distribution;
+New changes in program reading parameters, whit the insertion of the sigma of the primary beam energy,
+the radius of the first and second collimator, the faraday cup and the lollipop.
+KAlbuquerque
+
+--> 06/05/2023:
+Merge tof programs secBeam and Biparametric.
+
+--> 16/05/2023
+A root macro has been written to produce the graphics of the outputs files in bipametric folder.
+
+--> 22/05/2023
+Some corrections in the plot2D function (previosly called plotGraf);
+Inclusion of a frame in plot2D, like in scatter.
+
+--> 25/05/2023
+Inclusion of the contaminants in the biparametric production.
+
+--> 29/05/2023
+Corrections in the contaminants struct.
+
+-->18/07/2023
+New error messages.
+Inclusion of the manual in the main folder.
+
+-->28/07/2023
+Correction made in the reaction points. In the reaction points file the program was writing in z coordinate 2.66 and not 2.64 which is the correct target position value
+
+-->07/10/2023
+Correction made to the calculation on the exit path after reaction on the secondary target.
+
+-->30/01/2023
+Changes were made in the input file, adding the charge of the ejectile in the place of the secundary thickness.
+
+

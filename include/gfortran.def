@@ -1,0 +1,9 @@
+# If compiled with gfortran
+FC=gfortran
+
+# check-bounds
+#FFLAGS= -O2  -Wtabs -Wall -ffixed-form -fno-align-commons -fbounds-check -fbacktrace 
+#FFLAGS1= -O2  -Wtabs -Wall -ffixed-form -fno-align-commons -fbounds-check -fbacktrace
+
+FFLAGS= -O2 -Wtabs  -ffixed-form -fno-align-commons 
+FFLAGS1= -O2 -Wtabs  -ffixed-form -fno-align-commons 

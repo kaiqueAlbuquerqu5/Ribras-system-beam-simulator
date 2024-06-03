@@ -1,0 +1,118 @@
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@default linewidth 1.0
+@default linestyle 1
+@g0 on
+@g0 hidden false
+@g0 type XY
+@with g0
+@map font 0 to "Times-Roman", "Times-Roman"
+@map color 0 to (255, 255, 255), "white"
+@map color 2 to (255, 0, 0), "red"
+@map color 4 to (0, 0, 255), "blue"
+@page background fill on
+@r0 off
+@with string
+@    string on
+@    string loctype view
+@    string 1.1, 0.03
+@    string color 2
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.800000
+@    string def "OCBSantos"
+@with string
+@    string on
+@    string loctype view
+@    string 1.083, 0.066
+@    string color 2
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 0.800000
+@    string def "KAlbuquerque"
+@    world 27, 0, 33, 15
+@    stack world 0, 0, 0, 0
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title "Secundary beam energies  "
+@    title font 0
+@    title size 1.700000
+@    title color 1
+@    subtitle "Primary beam: 12C; Primary target: 3He whit thickness = 0.50 (mg/cm2); Secundary beam: 14O"
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    xaxis  on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Energy (MeV)"
+@    xaxis  label color 1
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    yaxes scale Normal
+@    yaxis  on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Count"
+@    yaxis  label color 1
+@    yaxis  tick major 1
+@    yaxis  tick minor size 1.000000
+@    yaxis  tick major 1
+@    yaxis  ticklabel on
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 0.950000
+@    s1 symbol pattern 1
+@    s1 symbol color 4
+@    s1 symbol fill color 4
+@    s1 symbol linewidth 1.0
+@    s1 symbol char 65
+@    s1 line type 3
+@    s1 line linestyle 1
+@    s1 line linewidth 1.5
+@    s1 line color 4
+@    s1 fill type 1
+@    s1 fill rule 0
+@    s1 fill color 4
+@    s1 fill pattern 14
+@    s1 comment "Histogram from G0.S0"
+@    s1 legend  ""
+@target G0.S0
+@type xy
+&
+@target G0.S1
+@type xy
+26.86957 0
+27.13043 0
+27.39130 0
+27.65217 1
+27.91304 3
+28.17391 0
+28.43478 3
+28.69565 2
+28.95652 3
+29.21739 3
+29.47826 7
+29.73913 8
+30.00000 5
+30.26087 5
+30.52174 13
+30.78261 8
+31.04348 3
+31.30435 7
+31.56522 4
+31.82609 2
+32.08696 1
+32.34783 0
+32.60870 0
+32.86957 0

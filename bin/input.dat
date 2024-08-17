@@ -1,7 +1,7 @@
 --!--> Use this tag '--!-->' to add a comment line.
 --!--> Main parameter of secbeam
 Run Sec_beam (yes/no): yes
-Number of particles: 100
+Number of particles: 500
 Primary beam: 12C
 Secondary beam: 14O
 Primary target:3He
@@ -20,12 +20,18 @@ END
 
 --!--> Contaminants parameters
 --!--> Write the contaminant tag, its mass, and its charge.
---!--> Example: 4He	4	2 (separar por tab)
+--!--> Example: 4He	4	2 (please, separe using tab)
 4He	4	2
 3H	3	1
 2H	2	1
 1H	1	1
-14O	14	8
+14O	14	5
+14O	14	6
+12C	12	3
+12C	12	4
+12C	12	5
+12C	12	6
+
 END
 --!--> The tag "END" below must not be deleted.
 
@@ -35,11 +41,11 @@ Run biparametric (yes/no): yes
 Detector: 28Si
 Detector thick (cm;mg/cm2): -0.0025
 Detector distance (m): 0.07
-Detector angle lab(deg): 15
+Detector angle lab(deg): 10
 Detector shape (circular,rectangular):circular
 Detector measurements {Det.radius(cm)}*OR*{Det.WidthX(cm) Det.WidthY(cm)}:0.55
 Secondary target:197Au
-Secondary target thick (cm;mg/cm2):-0.0002009
+Secondary target thick (cm;mg/cm2):-0.0002
 Ejectile beam(s):14O
 Recoil beam(s):197Au
 Qwindow(s):0

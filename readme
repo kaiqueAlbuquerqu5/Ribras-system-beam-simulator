@@ -10,7 +10,7 @@ $	make
 To run the program:
 -> open bin folder an fill de in.dat file with all necessary information. If the biparametric option is "no", It is not
 need to fill your informations. In the "Input" folder inside "Sec_Beam" folder you need to put the cross section of the
-simulation, if you don't, the standard cross section is the 8Li.
+simulation if you choose to consider it.
 -> In the bin folder, open the terminal and type
 $	./secRIBRAS < in.dat
 
